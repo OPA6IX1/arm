@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a0fdf58171.js" crossorigin="anonymous"></script>
+    <style>
+        /* searchbtn */
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    .box{
+        height: 30px;
+        display: flex;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 40px;
+        align-items: center;
+        box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+    }
+    .box:hover input{
+        width: 400px;
+
+    }
+    .box input{
+        width: 0;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        transition: 0.8s;
+        background: transparent;
+    }
+    .box a .fa{
+        color: blue;
+        font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <!-- searchbtn -->
+    <div class="box">
+        <input type="text" 
+        placeholder="Search...."
+        name="" id="">
+        <a href="#">
+            <i class="fa-solid fa-search"></i>
+
+        </a>
+        
+    </div>
+</body>
+</html>
